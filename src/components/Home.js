@@ -42,8 +42,7 @@ function Home(props) {
                 cursorChar="▌"
               />
               <br />
-              Give me a computer and a hard problem and you won't hear my voice
-              till I'm done.
+              Coffee advocate. Internet enthusiast. Web ninja. Fansubber
             </p>
             <Link to="/about" className="btn btn-home">
               MORE ABOUT ME
