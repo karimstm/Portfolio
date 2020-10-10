@@ -1,0 +1,56 @@
+[
+  {
+    "img": "https://i.imgur.com/AVmQvPv.jpg?1",
+    "name": "Viki Clone",
+    "technologies": ["NextJS", "React", "REST API", "Node.js", "Firebase"],
+    "url": "https://viki-clone.vercel.app/"
+  },
+  {
+    "img": "https://i.imgur.com/sQ7QXnd.jpg?1",
+    "name": "Amazon Clone",
+    "technologies": ["React", "REST API", "Node.js", "Firebase"],
+    "url": "https://clone-74fb5.web.app/"
+  },
+  {
+    "img": "https://i.imgur.com/D6pi9Q0.jpg?1",
+    "name": "Netflix Clone",
+    "technologies": ["React", "Firebase"],
+    "url": "https://netflix-clone-f9c86.web.app/"
+  },
+  {
+    "img": "https://i.imgur.com/HXgrtvr.png?1",
+    "name": "URL shortner",
+    "technologies": ["NodeJS", "VueJS", "MongoDB"],
+    "url": "https://sdg-sh.herokuapp.com/"
+  },
+  {
+    "img": "https://i.imgur.com/IRy4oDt.png?1",
+    "name": "Portfolio",
+    "technologies": ["Node.js", "React"],
+    "url": "/"
+  },
+  {
+    "img": "https://i.imgur.com/KsqbI3W.jpg?1",
+    "name": "Twitter Clone",
+    "technologies": ["Node.js", "React", "Twitter Api"],
+    "url": "https://my-twitter-clone-b5ad4.web.app/"
+  },
+  {
+    "img": "https://i.imgur.com/fsArGFi.jpg?1",
+    "name": "Spotify Clone",
+    "technologies": ["React", "Spotify Api"],
+    "url": "https://spotify-clone-4c591.web.app/"
+  },
+  {
+    "img": "https://i.imgur.com/YRjlQ37.jpg",
+    "name": "Vessel management",
+    "technologies": ["React", "Python - Django"],
+    "url": "/"
+  },
+  {
+    "img": "https://i.imgur.com/YRjlQ37.jpg",
+    "name": "Venspy: system dynamics simulator",
+    "technologies": ["React", "Python - Django"],
+    "url": "/"
+  }
+]

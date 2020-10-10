@@ -1,0 +1,108 @@
+.form-wrapper input{
+    display: block;
+    width: 100%;
+    padding: 0 20px;
+    border-radius: 5px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    height: 50px;
+    line-height: 46px;
+    margin-bottom: 20px;
+    outline: none;
+    border: 1px solid #424242;;
+    background: #252525;
+    font-size: 15px;
+    letter-spacing: .1px;
+}
+
+.form-wrapper textarea,
+.form-wrapper input:focus,
+.form-wrapper textarea:focus {
+    border: 1px solid #424242;;
+    background: #252525;
+}
+
+.form-wrapper input:focus,
+.form-wrapper textarea:focus {
+    color: white;
+}
+
+.contact .section-title .title {
+    font-size: 60px;
+    margin-bottom: 8px;
+    opacity: 1;
+}
+
+.contact .section-title p {
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.thumbnail {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.thumbnail img {
+    border-radius: 5px;
+    box-shadow: 0 25px 65px rgba(0,0,0,.1);
+    max-width: 100%;
+}
+
+.rn-address {
+    margin-top: 30px;
+    border: 1px solid #424242;
+    border-radius: 10px;
+    background: #252525;
+    padding: 50px 40px 30px;
+}
+
+.rn-address .icon {
+    border: 1px solid #424242;
+    width: 78px;
+    height: 78px;
+    color: #ffb400;
+    line-height: 73px;
+    text-align: center;
+    border-radius: 100%;
+    background: #252525;
+    font-size: 28px;
+    position: absolute;
+    top: -13px;
+    left: 45px;
+    transition: all .2s ease-in-out;
+}
+
+.rn-address .icon:hover {
+    background: #ffb400;
+    color: #FFF;
+}
+
+.rn-address .inner h4.title {
+    font-size: 18px;
+    padding-bottom: 10px;
+    font-weight: 700;
+}
+
+.rn-address .inner p {
+    font-size: 18px;
+    margin-bottom: 0;
+    transition: all .2s ease-in;
+}
+
+.rn-address .inner p:hover {
+    color: #ffb400;
+}
+
+.contact-info {
+    margin-bottom: 100px !important;
+    margin-top: 100px !important;
+}
+
+.form-contact {
+    margin-bottom: 100px !important;
+    margin-top: 100px !important;
+}

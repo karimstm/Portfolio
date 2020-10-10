@@ -1,0 +1,101 @@
+.tablist-inner {
+    display: inline-block;
+}
+
+.pv-tab-button {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: rgba(255,180,0, 0.03);
+    min-width: 570px;
+    border-radius: 6px;
+    margin: 35px auto 30px;
+    flex-wrap: wrap;
+    padding: 0 36px;
+    outline: none;
+}
+
+.pv-tab-button li {
+    padding: 0 14px;
+    color: #FFF;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+}
+
+.pv-tab-button li.react-tabs__tab--selected {
+    background: none !important;
+    border: none !important;
+}
+
+.pv-tab-button li.react-tabs__tab--selected span {
+    color: #FFB400 ;
+}
+
+.pv-tab-button li span {
+    position: relative;
+    display: block;
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+.pv-tab-button li.react-tabs__tab--selected span:after {
+    width: 100%;
+}
+
+.pv-tab-button li span:after {
+    position: absolute;
+    left: 0;
+    background: #FFB400 ;
+    bottom: 0;
+    height: 3px;
+    content: "";
+}
+
+.single-demo {
+    padding: 0 30px;
+    margin: 45px 0;
+}
+
+.single-demo a {
+    display: block;
+    position: relative;
+    z-index: 2;
+}
+
+.single-demo a img {
+    box-shadow: 3px 4px 20px 0 rgba(0,0,0,.1);
+    transition: .7s cubic-bezier(.26,.76,.3,.75);
+    width: 100%!important;
+    border-radius: 6px;
+}
+
+.single-demo a .info, .single-demo a .title {
+    display: block;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.single-demo a .title {
+    text-align: left;
+    padding: 25px 0 10px;
+    color: #ffb400;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: .2px;
+    margin: 0;
+}
+
+.single-demo a .info {
+    padding: 0;
+    color: rgb(255 255 255 / 75%);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.single-demo:hover img {
+    -webkit-transform: translate3d(0,-10px,0);
+    transform: translate3d(0,-10px,0);
+    box-shadow: 0 50px 80px -10px rgba(0,0,0,0.17);
+}

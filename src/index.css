@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Roboto:wght@300;400;500;900&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #111;
+  color: #fff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.icon-box:hover,
+.icon-box.active,
+.icon-box:hover h2,
+.btn.btn-home,
+.btn.btn-download
+{
+    background-color: #ffb400 !important;
+}
+
+.home-details .name,
+.title-section h1 span,
+.about .c100.dark:hover > span,
+.colored {
+  color: #ffb400;
+}
+
+
+.btn.btn-home,
+.btn.btn-download {
+    color: #FFF;
+    border-radius: 26px;
+    padding: 8px 25px;
+}
+
+a:active, a:focus, a:hover {
+  text-decoration: none;
+  outline: none;
+}
