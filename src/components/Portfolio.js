@@ -54,8 +54,14 @@ function Portfolio(props) {
                         <p className="info">
                           <strong>Technologies: </strong>
                           <span>
-                            {item?.technologies.map((t) => (
-                              <>{t}</>
+                            {item?.technologies.map((t, index) => (
+                              <>
+                                {`${t}${
+                                  item?.technologies.length !== index + 1
+                                    ? ", "
+                                    : "."
+                                }`}{" "}
+                              </>
                             ))}
                           </span>
                         </p>
